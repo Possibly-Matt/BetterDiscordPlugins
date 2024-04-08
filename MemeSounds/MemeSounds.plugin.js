@@ -61,7 +61,8 @@ module.exports = (() => {
 				{ id: "vineboom", name: "Vine Boom", type: "switch", value: true },
 				{ id: "vsauce", name: "Vsauce", type: "switch", value: false },
 				{ id: "yahoo", name: "Yahoo!", type: "switch", value: true },
-				{ id: "yippee", name: "Yippee!", type: "switch", value: true }
+				{ id: "yippee", name: "Yippee!", type: "switch", value: true },
+				{ id: "peaky", name: "Peaky blinders", type: "switch", value: true }
 			]
 		}],
 		/* Change Log */
@@ -148,7 +149,9 @@ module.exports = (() => {
 						{re: /🗿/gmi, file: "vineboom.mp3", duration: 1115},
 						{re: /what if/gmi, file: "vsauce.mp3", duration: 7000},
 						{re: /yahoo/gmi, file: "yahoo.mp3", duration: 930},
-						{re: /yip?pee/gmi, file: "yippee.mp3", duration: 1000}
+						{re: /yip?pee/gmi, file: "yippee.mp3", duration: 1000},
+						{re: /by order of the peaky blinders/gmi, file: "peaky.mp3", duration: 1020}
+
 					];
 
 					let lastMessageID = null;
