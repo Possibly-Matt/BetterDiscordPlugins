@@ -150,7 +150,7 @@ module.exports = (() => {
 						{re: /what if/gmi, file: "vsauce.mp3", duration: 7000},
 						{re: /yahoo/gmi, file: "yahoo.mp3", duration: 930},
 						{re: /yip?pee/gmi, file: "yippee.mp3", duration: 1000},
-						{re: /by order of the peaky blinders/gmi, file: "peaky.mp3", duration: 1020}
+						{re: /by ord(er|ah) of the (pea|pee)(ky|key|keh) bl(o)*in(ders|das|dahs)/gmi, file: "peaky.mp3", duration: 1020}
 
 					];
 
